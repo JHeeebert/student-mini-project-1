@@ -1,20 +1,34 @@
-* {
-    box-sizing: border-box;
-    padding: 20;
-    margin: 20;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
+*   {
+   box-sizing: border-box;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   text-align: center; }
 body {
-    position: relative;
-    margin: 200;
-    padding: 20
-}
+   position: relative;
+   margin: 200;
+   padding: 20
+    }
 header {
-    width: 100%;
-    padding-left: 750px;
-  border: 20px solid darkblue;
-  background-color: lightblue; 
-}
+   width: 100%;
+   padding-left: 200px;
+   border: 20px solid darkblue;
+   background-color: lightblue;
+    
+  }
+  
+nav {
+    padding-left: 50px;
+    font-size: 20px;
+    }
 section {
-    align-items: center;
+    font-size: larger;
+    padding-left: 200px;
+    padding-top: 250px;
+    
+    }
+footer {
+        font-size: x-large;
+    padding-left: 200px;
+padding-top: 400px;
+
+
 }
