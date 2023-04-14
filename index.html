@@ -26,19 +26,37 @@
 <img src="/images/miles-burke-idhx-MOCDSk-unsplash.jpg" alt="placeholder image here">
 <!--form-->
 <form>
-    <p>Please enter your contact information below</p>
+    <form action="action_page.php">
 
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="Spain">Spain</option>
+        </select>
+    
+        <label for="Email">Email</label>
+        <textarea id="Email" name="Email" placeholder="Write Email Here.." style="height:50px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
 </form>
-
-
 <!--Links-->
-<a href="https://www.google.com">Click This If You Are Curious</a>
+<link>
 </section>
 </body>
 
 <!--Footer-->
 <footer>
     <p>Thanks for stopping by!<p>
+        <a href="https://www.google.com">Click This If You Are Curious</a>
     
 </footer>
 
