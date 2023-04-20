@@ -1,8 +1,8 @@
-*   {
-   box-sizing: border-box;
-   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  * {
+       box-sizing: border-box;
+   font-family: "monospace", "Lucida Grande", sans-serif;
    text-align: center; 
-}
+   }
 body {
    position: relative;
    margin: 200;
@@ -21,7 +21,7 @@ nav {
 section {
     font-size: x-large;
     padding-left: 200px;
-    padding-top: 50px;
+    padding-top: 100px;
     background-color: beige;
 }
 form {
